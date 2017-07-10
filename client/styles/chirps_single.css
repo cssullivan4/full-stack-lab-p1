@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+a:active, a:visited, a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/* CHIRP CONTAINER CHIRP CONTAINER CHIRP CONTAINER CHIRP CONTAINER */
+#chirp-grid {
+    display: block;
+    border: 2.5px solid rgb(66,139,202);
+    background-color: rgb(249,249,249);
+    /*padding: .1% .1% .1% .1%;*/
+    /*margin: 1% 1% 1% 1%;*/
+    height: 11em;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 0.45em;
+    margin-bottom: 0.5em;
+}
+/*#chirp-grid::after {
+    content: "";
+    clear: both;
+    display: table;
+}*/
+
+/* CHIRP SKELETON CHIRP SKELETON CHIRP SKELETON CHIRP SKELETON */
+.container-l {
+    width: 84.99%;
+    height: 100%;
+    /*border: 1px solid blue;*/
+    /*height: 10em;*/
+    background-color: rgb(249,249,249);
+    float: left;
+    border-right: 3px solid rgb(66,139,202);
+    overflow: hidden;
+}
+.container-r {
+    width: 15%;
+    height: 100%;
+    /*border: 1px solid orange;*/
+    float: left;
+    
+    /*margin-left: 1%;*/
+}
+
+/* CHIRP FRAME CHIRP FRAME CHIRP FRAME CHIRP FRAME */
+
+.chirp-drawer-top {
+    background-color: rgb(249,249,249);
+    height: 19%;
+    padding: 1.1% 1.1% 1.1% 1.1%;
+    margin: .25% .25% .25% .25%;
+}
+.chirp-drawer-bottom {
+    background-color: rgb(249,249,249);
+    height: 19%;
+    padding: 1.1% 1.1% 1.1% 1.1%;
+    margin: .25% .25% .25% .25%;
+}
+#chirp-message {
+    height: 57%;
+    margin: .5% -1% .5% 20%;
+    border-radius: .45em;
+    background-color: rgba(190, 197, 214, 0.4);
+    overflow: hidden;
+}
+.chirp-nav {
+    float: left;
+    height: 100%;
+    width: 100%;
+    margin-right: -3em;
+    cursor: pointer;
+}
+
+/* CHIRP INSIDES CHIRP INSIDES CHIRP INSIDES CHIRP INSIDES */
+
+#top-left {
+    height: 1.8em;
+    width: 50.7%;
+    float: left;
+    padding: .1% .1% .1% .1%;
+    margin-top: -.3em;
+    margin-left: -.3em;
+    background-color: rgb(249,249,249);
+    border-bottom: 1.5px dotted rgb(92,184,92);
+}
+#top-left h4 {
+    margin-top: 2.5%;
+    font-family: 'Verdana', sans-serif;
+    font-size: 75%;
+    font-style: oblique;
+}
+#top-right {
+    height: 1.8em;
+    width: 50.7%;
+    float: right;
+    background-color: rgb(249,249,249);
+    padding: .2% .2% .2% .2%;
+    margin-top: -.3em;
+    margin-right: -.3em;
+}
+#chirp-message {
+    height: 57%;
+    margin: .5% -1% .5% 20%;
+    border-radius: .45em;
+    background-color: rgba(190, 197, 214, 0.4);
+    overflow: hidden;
+}
+#chirp-message p {
+    margin: auto;
+    padding: 1%;
+}
+.chirp p {
+    /*width: 93%;*/
+    margin: 0% auto;
+    margin-bottom: 3em;
+}
+#bottom-left {
+    height: 1.8em;
+    width: 50.7%;
+    float: left;
+    margin-top: -.3em;
+    margin-left: -.3em;
+}
+#bottom-right {
+    height: 1.8em;
+    width: 50.7%;
+    float: right;
+    margin-top: -.3em;
+    margin-right: -.3em;
+}
+.date {
+    list-style-type: none;
+    font-style: oblique;
+    color: rgba(0, 0, 0, .8);
+    padding: 2% 1% 0 0;
+    font-size: 0.9em;
+    float: right;
+}
+/* right right right right right right right right */
+#top {
+    height: 49.99%;
+    width: 100%;
+    border-bottom: 1.5px solid rgb(190, 197, 214);
+}
+/*#top:hover {
+    background-color: rgb(66,139,202);
+}*/
+#bottom {
+    height: 49.99%;
+    width: 100%;
+    border-top: 1.5px solid rgb(190, 197, 214);
+}
+/*#bottom:hover {
+    background-color: rgb(66,139,202);
+}*/
+.nav-option {
+    font-family: 'Verdana', sans-serif;
+    color: rgb(217, 83, 79);
+    width: 100%;
+    padding: .1% .1% .1% .1%;
+    margin: -0.1% -0.1% -0.1% -0.1%;
+    text-align: center;
+    padding: 30% 30% 30% 25%;
+    height: 100%;
+    cursor: pointer;
+}
+.nav-option:hover {
+    background-color: rgb(217, 83, 79);
+    color: white;
+    cursor: pointer;
+}
+.nav-option-top {
+    font-family: 'Verdana', sans-serif;
+    color: rgb(92, 184, 92);
+    text-align: center;
+    margin: -.1% -.1% -.1% -.1%;
+    padding: 28%;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.nav-option-top:hover {
+    background-color: rgb(92, 184, 92);
+    color: white;
+    cursor: pointer;
+}

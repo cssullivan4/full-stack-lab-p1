@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="/styles/grid_list.css">
+        <link rel="stylesheet" href="/styles/chirps_update.css">
+        <link rel="stylesheet" href="/styles/chirp_controls.css">
+    </head>
+    <body>
+        <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <div class="author-box">
+                    <a href="/chirps/">
+                        <div class="header">
+                            <img id="chirp-icon" src="/images/red_bird.png" />
+                            <img id="chirper-text" src="/images/thonburi.png" />
+                        </div>
+                    </a>
+                    <div class="a-body">
+                        <select id="user-selector">
+            <option value="">Select a User</option>
+            </select>
+                        <textarea id="chirp-field" rows="7" cols="20" wrap: "soft" maxlength="140">Cannot chirp; Must choose to Edit or Delete chirp, or to go back to view all chirps.</textarea>
+                        <button id="chirp-btn" disabled>Chirp</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div id="chirp-list"></div>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+        <!--<h1>Single Update</h1>
+        <div class="page-container-left">
+        <div class="chirp-box">
+            <div class="header">
+            <img id="chirp-icon" src="/images/red_bird.png"/>
+            <img id="chirper-text" src="/images/text-logo.png"/>
+            </div>
+            <div class="row-1">
+            <select id="user-selector">
+            <option value="">Select a User</option>
+            </select>
+            <textarea id="chirp-field" rows="7" cols="20" wrap: "soft" maxlength="140"></textarea>
+            <button id="chirp-btn" disabled>Chirp</button>
+            </div>
+            <img id="logo" src="/images/bird_white.png"/>
+        </div>
+        </div>
+        <div class="page-container-center">
+            <div id="chirp-list"></div>
+        </div>
+         <div class="page-container-right">
+            <div id="perma-box">
+                <img id="chirp-icon" src="/images/red_bird.png"/>
+            </div>
+        </div>-->
+        <!--<textarea id="chirp-message" cols="50"></textarea>
+        <button id="update-button" class="fancy-button">Update</button>-->
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script src="/scripts_updates.js"></script>
+    </body>
+</html>

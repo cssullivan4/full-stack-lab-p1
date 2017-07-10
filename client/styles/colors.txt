@@ -1,0 +1,17 @@
+MESSAGE BLUE: 
+rgba(190, 197, 214, 0.4);
+
+LIGHT BLUE:
+rgb(91,192,222);
+
+RED:
+rgb(217,83,79);
+
+BLUE:
+rgb(66,139,202);
+
+GREEN:
+rgb(92,184,92);
+
+WHITE:
+rgb(249,249,249)
